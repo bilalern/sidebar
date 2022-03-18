@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+
+.sidebar {
+    width:70px ;
+    background-color: rgb(23, 28, 43);
+    height:  550px;
+    
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    border: 1px solid;
+    border-radius:  0px 15px 15px 0px;
+    position: fixed;
+    
+    
+    
+}
+
+ .sidebar h2 {
+     color: white;
+     position: relative;
+     top: 10px;
+     display: flex;
+     flex-wrap: nowrap;
+     left: 25px;
+     
+ }
+
+.sidebar ul {
+    list-style-type: none;
+    
+        
+}
+.sidebar ul li a {
+    color: rgb(93,98,113);
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 17px;
+    position: relative;
+    padding: 6px;
+
+    
+}
+.sidebar ul li {
+    margin-bottom: 25px;
+   
+    
+}
+
+.nav {
+    position: relative;
+    top: 25px;
+    left: 0px;
+}
+.hr {
+    display: flex;
+    justify-content: center;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(56, 53, 53, 0.75), rgba(240, 226, 226, 0.75), rgba(56, 53, 53, 0.75));
+}
+i {
+    margin-right: 13px;
+    overflow: visible;
+}
+
+.sidebar ul li a:hover {
+    border: 0.1px solid rgb(93,98,113);
+    border-radius: 3px;
+    
+    background-color: rgb(93,98,113);
+    color: white;
+    transition: all 1s;
+}
+
+
+
+.sidebar:hover {
+    width: 220px;
+    transition: width 1s;
+    
+}
+
+.fa-home {
+    position: relative;
+    margin-right: 25px;
+}
+
